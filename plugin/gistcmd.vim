@@ -16,6 +16,6 @@ if !executable('gist')
   finish
 endif
 
-command! GistUp :call gistcmd#upload_gist_file(curfile)
+command! GistUp :call gistcmd#upload_gist_file()
 
 " vim:set et:
